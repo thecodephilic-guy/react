@@ -46,7 +46,7 @@ This project was created as a simple example of web development using HTML, CSS,
 
 ## Author
 
-- [Sohial](https://github.com/thecodephilic-guy)
+- [Sohail](https://github.com/thecodephilic-guy)
 
 If you have any questions or need further assistance, please don't hesitate to contact me.
 
