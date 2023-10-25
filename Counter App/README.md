@@ -15,7 +15,7 @@ This is a simple web application that allows you to keep track of a numeric valu
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/counter-app.git
+   git clone https://github.com/thecodephilic-guy/react/tree/main/Counter%20App
    ```
 
 2. Open the `index.html` file in your web browser.
