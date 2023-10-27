@@ -12,7 +12,7 @@ function App() {
 
   const downShift = () => {
     if (count <= 0) {
-      alert("Can't be negative! Press Reset");
+      alert("Can't count negative!");
       return
     }
     setCount(count - 1);
@@ -24,23 +24,23 @@ function App() {
 
   return (
     <div>
-      <h1 class="border border-2 py-2" >{count}</h1>
+      <h1 className="border border-2 py-2" >{count}</h1>
       <br />
-      <div class="container text-center">
-        <div class="row-6">
-          <div class="col mb-2 ">
+      <div className="container text-center">
+        <div className="row-6">
+          <div className="col mb-2 ">
             <button
               type="button"
-              class="btn btn-outline-success"
+              className="btn btn-outline-success"
               onClick={upShift}
             >
               Up Shift
             </button>
           </div>
-          <div class="col mb-2">
+          <div className="col mb-2">
             <button
               type="button"
-              class="btn btn-outline-danger"
+              className="btn btn-outline-danger"
               onClick={downShift}
             >
               Down Shift
@@ -48,7 +48,7 @@ function App() {
           </div>
           <button 
             type="button" 
-            class="btn btn-outline-dark" 
+            className="btn btn-outline-dark" 
             onClick={reset}>
             Reset
           </button>
